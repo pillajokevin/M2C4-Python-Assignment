@@ -43,5 +43,30 @@ my_dictionary = my_list[-3] # Extraemos nuestro diccionario de la lista  que ten
 print('My dictionary :',my_dictionary) # Imprimimos nuestro diccionario 
 
 """
-Exercise 2 
+Exercise 2 Round your float up 
 """
+
+import math #Importamos la libreria para poder redondearlo hacia arriba 
+
+# my_float = 3.24 # Numero flotante del ejercicio aterior 
+
+round_float = math.ceil(my_float)# Usamos mat.ceil(x) para poder redondearlo hacia arriba ya que si usamos round(x) no redondea al numero mas cercano 
+
+print('Original number : ', my_float)# Imprimimos el numero original
+print('Rounded number :' , round_float) # Imprimimos el nuevo numero redondeado hacia arriba 
+
+"""
+Exercise 3 Get the square root of your float
+"""
+
+# my_float = 3.23 # Recordamos el numero flotante 
+
+sqrt_float = math.sqrt(my_float) # Usamos math.sqrt ya que es una forma mas clara y directa y como ya tenemos la libreria math no tenemos que volverla a llamar 
+
+print('The square root :',sqrt_float) # Imprimimos nuestra raiz cuadrada 
+
+
+"""
+Exercise 4 Select the first element from your dictionary
+"""
+
