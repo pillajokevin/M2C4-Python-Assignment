@@ -129,10 +129,8 @@ print('Sorted filtered list :',order_list) # Imprimimos la lista ordenada
 Exercise 9 : Use reassignment to add an element to your tuple. 
 """
 
-my_tuple = list(my_tuple) # Convertimos la tupla en una lista
+# my_tuple = ('Python Intro', 'Java Intro' , 'Javascript Intro' , 'C++ Intro')# Usamos nuestra tupla 
 
-my_tuple.append('Ruby Intro') # Agregamos el nuevo elemento 
-
-my_tuple = tuple(my_tuple) # Convertimos la lista nuevamente en tupla 
+my_tuple += ('Ruby Intro',)# Usamos reasignacion para  anadir un nuevo elemento a la tupla , devemos agregar la coma para que sea una tupla 
 
 print('Updated tuple',my_tuple) # Imprimimos la nueva tupla
